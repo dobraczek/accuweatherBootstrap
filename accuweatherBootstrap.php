@@ -1,7 +1,7 @@
 <?php
 
 /**
- * accuweather.com
+ * accuweatherBootstrap
  * @author Martin Dobry
  * @link http://webscript.cz
  * @version 1.0
