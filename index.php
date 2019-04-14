@@ -24,7 +24,6 @@
 	<h1>AccuweatherBootstrap</h1>
 
     <?php
-    
     /**
      * AccuweatherBootstrap
      * @author Martin Dobry
@@ -39,16 +38,9 @@
     
     if(@$array['Code'] == "Unauthorized")
         echo '<strong>'.$array['Message'].'</strong>';
-    
     else
-        echo $Bootstrap->DesignA();
-        
+        echo $Bootstrap->DesignA();  
     ?>
-    
-    <!--
-    <br /><br />
-    <pre><?php print_r($array); ?></pre>
-    -->
 </div>
 
 </body>
